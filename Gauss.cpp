@@ -109,10 +109,11 @@ void Gauss(int n, double A[100][100],double B[100]){
 
 
     }
-    cout<<"----------Resultados----------"
-    for(int i = 0; i <= n; i++)
+    cout<<"----------Resultados----------";
+    
+	for(int i = 1; i <= n; i++)
     {
-        cout<<"X["<<i<<"]"<<x[i]<<"\t";
+        cout<<"\nX["<<i<<"]: "<<x[i]<<"\t";
     }
 
 }
@@ -192,9 +193,6 @@ int main(int argc, char const *argv[])
     //Gauss(tamanioSistema,matrizCoeficientes,termIndependientes);
 
     GaussJordan(matrizCoeficientes,termIndependientes,tamanioSistema);
-
-
-
-    
+	    
     return 0;
 }
