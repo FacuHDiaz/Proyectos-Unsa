@@ -60,7 +60,7 @@ void Biseccion()
 
     if(k>imax)
     {
-        cout<<"Iteraciones Insuficientes";
+        cout<<"\nIteraciones Insuficientes";
     }
     
 }
